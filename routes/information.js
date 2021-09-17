@@ -3,7 +3,7 @@ const router = express.Router();
 const imformationController  = require("../controllers/informationController")
 
 router.get("/",
-    imformationController.allDate
+    imformationController.allData
 );
 
 module.exports = router

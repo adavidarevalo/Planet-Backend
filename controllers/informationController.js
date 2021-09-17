@@ -6,7 +6,7 @@ const Planets = [
     revolutionTime: "87.97",
     radius: "2,439.7",
     temp: "430",
-    imageOverview: "",
+    imageOverview: __dirname + "/../assets/" + 'geology-earth.png',
     imageStructure: "",
     imageGeology: "",
   },
@@ -89,6 +89,7 @@ const Planets = [
   },
 ]
 
-exports.allDate = async(req, res)=>{
+exports.allData = async(req, res)=>{
   res.json({Planets})
 }
+
