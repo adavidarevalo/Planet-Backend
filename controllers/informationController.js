@@ -91,5 +91,6 @@ const Planets = [
 
 exports.allData = async(req, res)=>{
   res.json({Planets})
+  console.log(__dirname + '../assets/planet-mars.svg' )
 }
 
