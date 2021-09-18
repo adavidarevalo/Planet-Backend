@@ -1,8 +1,8 @@
-const PlanetMenu = require('../information/menu')
+const information = require('../information/menu')
 
 
 exports.allMenu = async(req, res)=>{
-    res.json({PlanetMenu})
+    res.json([...information.information])
   }
   
   

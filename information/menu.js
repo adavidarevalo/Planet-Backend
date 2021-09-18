@@ -1,4 +1,4 @@
-exports.PlanetMenu = [
+exports.information = [
     {
         color: '#DEF4FC',
         name: 'mercury'
