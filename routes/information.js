@@ -2,7 +2,7 @@ const express = require("express");
 const router = express.Router();
 const imformationController  = require("../controllers/informationController")
 
-router.get("/",
+router.put("/:name",
     imformationController.allData
 );
 
