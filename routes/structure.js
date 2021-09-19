@@ -1,9 +1,9 @@
 const express = require("express");
 const router = express.Router();
-const imformationController  = require("../controllers/informationController")
+const structureController  = require("../controllers/structureController")
 
 router.get("/:name",
-    imformationController.allData
+    structureController.structureContainer
 );
 
 module.exports = router

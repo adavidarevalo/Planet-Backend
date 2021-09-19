@@ -1,9 +1,9 @@
 const express = require("express");
 const router = express.Router();
-const imformationController  = require("../controllers/informationController")
+const surfaceController  = require("../controllers/surfaceController")
 
 router.get("/:name",
-    imformationController.allData
+    surfaceController.surfaceData
 );
 
 module.exports = router
