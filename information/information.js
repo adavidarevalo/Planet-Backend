@@ -4,20 +4,20 @@ exports.Planet =[
     source: 'https://en.wikipedia.org/wiki/Mercury_(planet)',  
     main:[
       {
-        name: 'rotacionTime',
-        data: '58.6'
+        name: 'rotacion Time',
+        data: '58.6 Days'
       },
       {
-        name: 'revolutionTime',
-        data: '87.97'
+        name: 'revolution Time',
+        data: '87.97 Days'
       },
       {
         name: 'radius',
-        data: '2,439.7'
+        data: '2,439.7 Km'
       },
       {
         name: 'temp',
-        data: '430'
+        data: '430 °C'
       },
     ],
     overview: {
